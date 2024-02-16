@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* Fonts
+font-family: "Poppins", sans-serif;
+font-family: "Bebas Neue", sans-serif;
+*/
+:root {
+  --color-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.banner {
+  margin-top: 25px;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(7, 2, 17, 0.75),
+      rgba(7, 2, 17, 0.3)
+    ),
+    url(../images/Banner-Image.png);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.banner .sub-title {
+  font-size: 24px;
+  color: var(--color-white);
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.banner-title {
+  font-family: "Merriweather", serif;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-white);
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+/*offer section*/
+.offer {
+  text-align: center;
+  padding: 70px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1.offer-title {
+  font-size: 100px;
+  font-weight: 500;
+  color: #ff0000;
+}
+
+p.offer-sub-title {
+  color: #ff0000;
+}
+
+h2.offer-title {
+  font-size: 57px;
+  font-weight: 500;
+}
+
+.offer-image {
+  width: 80%;
+  margin-top: 25px;
+}
