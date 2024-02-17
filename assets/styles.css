@@ -181,3 +181,139 @@ h2.offer-title {
   border-radius: 5px;
   margin-top: 20px;
 }
+
+.portfoilo {
+  padding: 21px 75px;
+}
+.sub-tittle-2 {
+  color: rgb(208, 26, 26);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+}
+.TITTLE-2 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #121212;
+}
+.paragraph-1 {
+  font-size: 13px;
+  color: #121212;
+}
+.images {
+  display: flex;
+  background-color: wheat;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img-1 {
+  height: 40%;
+  width: 30%;
+  border: 2px solid #121212;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.subscription {
+  background: #fff2f2;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.subscription img {
+  width: 150px;
+}
+
+.subscription h2 {
+  font-size: 50px;
+  color: #070211;
+  font-weight: 600;
+  font-family: "Merriweather", serif;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.subscribe input[type="text"] {
+  padding: 10px;
+  border-radius: 25px 0px 0px 25px;
+  -webkit-border-radius: 25px 0px 0px 25px;
+  -moz-border-radius: 25px 0px 0px 25px;
+  -ms-border-radius: 25px 0px 0px 25px;
+  -o-border-radius: 25px 0px 0px 25px;
+  border: none;
+}
+
+.subscribe input[type="button"] {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: #ff0000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0 25px 25px 0;
+  -webkit-border-radius: 0 25px 25px 0;
+  -moz-border-radius: 0 25px 25px 0;
+  -ms-border-radius: 0 25px 25px 0;
+  -o-border-radius: 0 25px 25px 0;
+}
+
+.subscription p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer {
+  background: #070211;
+  margin: 50px auto 0 auto;
+  padding: 50px 0;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-left p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer-right ul {
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  font-size: 16px;
+}
+
+.social-footer {
+  color: #fff;
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.social-footer ul li {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.copyright-footer {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 25px 0;
+}
